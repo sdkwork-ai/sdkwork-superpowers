@@ -4,6 +4,6 @@
   "type": "module",
   "main": ".opencode/plugins/superpowers.js",
   "scripts": {
-    "check:app-composition": "node ../sdkwork-specs/tools/verify-repo.mjs --root ."
+    "stop": "node ../sdkwork-specs/tools/stop-sdkwork-workspace-processes.mjs --workspace .",    "check:app-composition": "node ../sdkwork-specs/tools/verify-repo.mjs --root ."
   }
 }
