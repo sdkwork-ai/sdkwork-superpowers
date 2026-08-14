@@ -12,7 +12,7 @@ Add superpowers to the `plugin` array in your `mimocode.jsonc` (global or projec
 
 ```jsonc
 {
-  "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git"]
+  "plugin": ["superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git"]
 }
 ```
 
@@ -95,7 +95,7 @@ To pin a specific version, use a branch or tag:
 
 ```jsonc
 {
-  "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git#v5.0.3"]
+  "plugin": ["superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git#v5.0.3"]
 }
 ```
 
@@ -147,7 +147,7 @@ the plugin, try installing with system npm and pointing MiMoCode at the local
 package:
 
 ```powershell
-npm install superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git --prefix "$HOME\.config\mimocode"
+npm install superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git --prefix "$HOME\.config\mimocode"
 ```
 
 Then use the installed package path in `mimocode.jsonc`:
@@ -171,6 +171,6 @@ Then use the installed package path in `mimocode.jsonc`:
 
 ## Getting Help
 
-- Report issues: https://github.com/Sdkwork-Cloud/sdkwork-superpowers/issues
-- Main documentation: https://github.com/Sdkwork-Cloud/sdkwork-superpowers
+- Report issues: https://github.com/sdkwork-ai/sdkwork-superpowers/issues
+- Main documentation: https://github.com/sdkwork-ai/sdkwork-superpowers
 - MiMoCode docs: https://github.com/mimo-ai/mimocode

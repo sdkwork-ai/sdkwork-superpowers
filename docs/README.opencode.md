@@ -8,7 +8,7 @@ Add superpowers to the `plugin` array in your `opencode.json` (global or project
 
 ```json
 {
-  "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git"]
+  "plugin": ["superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git"]
 }
 ```
 
@@ -91,7 +91,7 @@ To pin a specific version, use a branch or tag:
 
 ```json
 {
-  "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git#v5.0.3"]
+  "plugin": ["superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git#v5.0.3"]
 }
 ```
 
@@ -128,7 +128,7 @@ the plugin, try installing with system npm and pointing OpenCode at the local
 package:
 
 ```powershell
-npm install superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git --prefix "$HOME\.config\opencode"
+npm install superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git --prefix "$HOME\.config\opencode"
 ```
 
 Then use the installed package path in `opencode.json`:
@@ -152,6 +152,6 @@ Then use the installed package path in `opencode.json`:
 
 ## Getting Help
 
-- Report issues: https://github.com/Sdkwork-Cloud/sdkwork-superpowers/issues
-- Main documentation: https://github.com/Sdkwork-Cloud/sdkwork-superpowers
+- Report issues: https://github.com/sdkwork-ai/sdkwork-superpowers/issues
+- Main documentation: https://github.com/sdkwork-ai/sdkwork-superpowers
 - OpenCode docs: https://opencode.ai/docs/

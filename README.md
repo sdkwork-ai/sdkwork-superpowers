@@ -52,7 +52,7 @@ The Superpowers marketplace provides Superpowers and some other related plugins 
 - Register the marketplace:
 
   ```bash
-  /plugin marketplace add Sdkwork-Cloud/sdkwork-superpowers-marketplace
+  /plugin marketplace add sdkwork-ai/sdkwork-superpowers-marketplace
   ```
 
 - Install the plugin from this marketplace:
@@ -92,7 +92,7 @@ Superpowers is available via the [official Codex plugin marketplace](https://git
 - Register the marketplace:
 
   ```bash
-  droid plugin marketplace add https://github.com/Sdkwork-Cloud/sdkwork-superpowers
+  droid plugin marketplace add https://github.com/sdkwork-ai/sdkwork-superpowers
   ```
 
 - Install the plugin:
@@ -106,7 +106,7 @@ Superpowers is available via the [official Codex plugin marketplace](https://git
 - Install the extension:
 
   ```bash
-  gemini extensions install https://github.com/Sdkwork-Cloud/sdkwork-superpowers
+  gemini extensions install https://github.com/sdkwork-ai/sdkwork-superpowers
   ```
 
 - Update later:
@@ -123,7 +123,7 @@ already use it in another harness.
 - Tell OpenCode:
 
   ```
-  Fetch and follow instructions from https://raw.githubusercontent.com/Sdkwork-Cloud/sdkwork-superpowers/refs/heads/main/.opencode/INSTALL.md
+  Fetch and follow instructions from https://raw.githubusercontent.com/sdkwork-ai/sdkwork-superpowers/refs/heads/main/.opencode/INSTALL.md
   ```
 
 - Detailed docs: [docs/README.opencode.md](docs/README.opencode.md)
@@ -140,14 +140,14 @@ even if you already use it in another harness.
 
   ```jsonc
   {
-    "plugin": ["superpowers@git+https://github.com/Sdkwork-Cloud/sdkwork-superpowers.git"]
+    "plugin": ["superpowers@git+https://github.com/sdkwork-ai/sdkwork-superpowers.git"]
   }
   ```
 
 - Or tell MiMoCode:
 
   ```
-  Fetch and follow instructions from https://raw.githubusercontent.com/Sdkwork-Cloud/sdkwork-superpowers/refs/heads/main/.mimocode/INSTALL.md
+  Fetch and follow instructions from https://raw.githubusercontent.com/sdkwork-ai/sdkwork-superpowers/refs/heads/main/.mimocode/INSTALL.md
   ```
 
 - Detailed docs: [docs/README.mimocode.md](docs/README.mimocode.md)
@@ -167,7 +167,7 @@ even if you already use it in another harness.
 - Register the marketplace:
 
   ```bash
-  copilot plugin marketplace add Sdkwork-Cloud/sdkwork-superpowers-marketplace
+  copilot plugin marketplace add sdkwork-ai/sdkwork-superpowers-marketplace
   ```
 
 - Install the plugin:
@@ -254,7 +254,7 @@ MIT License - see LICENSE file for details
 Superpowers is built by [Jesse Vincent](https://blog.fsck.com) and the rest of the folks at [Prime Radiant](https://primeradiant.com).
 
 - **Discord**: [Join us](https://discord.gg/35wsABTejz) for community support, questions, and sharing what you're building with Superpowers
-- **Issues**: https://github.com/Sdkwork-Cloud/sdkwork-superpowers/issues
+- **Issues**: https://github.com/sdkwork-ai/sdkwork-superpowers/issues
 - **Release announcements**: [Sign up](https://primeradiant.com/superpowers/) to get notified about new versions
 
 ## Documentation Canon
