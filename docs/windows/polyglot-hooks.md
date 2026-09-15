@@ -11,7 +11,7 @@ Claude Code runs hook commands through the system's default shell:
 This creates several challenges:
 
 1. **Script execution**: Windows CMD can't execute `.sh` files directly - it tries to open them in a text editor
-2. **Path format**: Windows uses backslashes (`C:\path`), Unix uses forward slashes (`/path`)
+2. **Path format**: Windows uses backslashes (`<path>`), Unix uses forward slashes (`/path`)
 3. **Environment variables**: `$VAR` syntax doesn't work in CMD
 4. **No `bash` in PATH**: Even with Git Bash installed, `bash` isn't in the PATH when CMD runs
 
@@ -201,8 +201,8 @@ The hooks.json is pointing directly to the `.sh` file. Point to the `.cmd` wrapp
 ### Works in terminal but not as hook
 Claude Code may run hooks differently. Test by simulating the hook environment:
 ```powershell
-$env:CLAUDE_PLUGIN_ROOT = "C:\path\to\plugin"
-cmd /c "C:\path\to\plugin\hooks\session-start.cmd"
+$env:CLAUDE_PLUGIN_ROOT = "<path>\plugin"
+cmd /c "<path>\plugin\hooks\session-start.cmd"
 ```
 
 ## Related Issues
