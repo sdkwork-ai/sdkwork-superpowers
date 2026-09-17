@@ -39,7 +39,7 @@ CMDBLOCK
 2. `@echo off` - Suppresses command echoing
 3. The bash.exe command runs with:
    - `-l` (login shell) to get proper PATH with Unix utilities
-   - `cygpath -u` converts Windows path to Unix format (`C:\foo` → `/c/foo`)
+   - `cygpath -u` converts a Windows path to Unix format (a `<drive>:` path becomes a `<drive>` directory under the mount root)
 4. `exit /b` - Exits the batch script, stopping CMD here
 5. Everything after `CMDBLOCK` is never reached by CMD
 
