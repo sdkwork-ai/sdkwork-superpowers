@@ -64,3 +64,7 @@ Thumbs.db
 Thumbs.db
 # Runtime-generated environment configuration
 **/public/runtime-env.json
+
+# --- SDKWork: gitignore completeness (2026-10-16) ---
+# Added by repo-commit task; targeted rules only, compliant with check-gitignore-standard
+__pycache__/
